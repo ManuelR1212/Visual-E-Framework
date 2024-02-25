@@ -5,7 +5,7 @@
 
 # Visual E
 
-Este es el repositorio oficial de Visual E, donde encontrarás la información necesaria para su implementación en tus proyectos, como; plugins, dependencias y tutoriales. Para una mayor información, visita la página de [documentación](https://www.google.com).
+Este es el repositorio oficial de Visual E, donde encontrarás la información necesaria para su implementación en tus proyectos, como; plugins, dependencias y tutoriales. Para una mayor información, visita la página de [documentación](https://manuelr1212.github.io/visuale-page/).
 
 ## Introducción
 
@@ -38,7 +38,7 @@ return (
 />)
 }
 ```
-Este ejemplo te muestra una pequeña parte de todas las funciones que ofrece Visual E para tus proyectos, para aprender más sobre ellas visita la [documentación](https://www.google.co.ve/).
+Este ejemplo te muestra una pequeña parte de todas las funciones que ofrece Visual E para tus proyectos, para aprender más sobre ellas visita la [documentación](https://manuelr1212.github.io/visuale-page/).
 
 ¿Te sientes preparado? Sigue los pasos en la sección de "inicio rápido" para comenzar con tus proyectos.
 
@@ -48,7 +48,7 @@ Visual E ofrece a aquellos usuarios que necesiten de un diseño rápido pero agr
 
 `https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css`
 
-Pega el [Link CDN](https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css) dentro del "head" de tu código HTML. Simplemente con esto, podrás utilizar todos los estilos y etiquetas de Visual E dentro de tu proyecto, para una mayor información, visita la página de [documentación](https://www.google.co.ve/).
+Pega el [Link CDN](https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css) dentro del "head" de tu código HTML. Simplemente con esto, podrás utilizar todos los estilos y etiquetas de Visual E dentro de tu proyecto, para una mayor información, visita la página de [documentación](https://manuelr1212.github.io/visuale-page/).
 
 ```html
 <!DOCTYPE html>
@@ -72,8 +72,8 @@ Esto hará que npm instale todos los paquetes necesarios para que puedas utiliza
 
 ## Documentación
 
-Podrás encontrar toda la documentación disponible de Visual E, en nuestra [página web oficial](https://www.google.co.ve/). La documentación de Visual E sigue en desarrollo, te invitamos a empezar tus proyectos con nosotros!
+Podrás encontrar toda la documentación disponible de Visual E, en nuestra [página web oficial](https://manuelr1212.github.io/visuale-page/). La documentación de Visual E sigue en desarrollo, te invitamos a empezar tus proyectos con nosotros!
 
 ## Licencia
 
-Visual E cuenta con una licenci
+Visual E cuenta con una licencia MIT. Puedes averiguar más y leer sobre la misma aquí.

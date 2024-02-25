@@ -1027,6 +1027,10 @@ form .inp:focus {
       BORDERS | BORDES
    |||||||||||||||||||||||| */
 
+.border-none {
+    border: none;
+}   
+
    
 /* SOLID BORDERS | BORDES SOLIDOS */
 
@@ -1473,6 +1477,10 @@ TABLE HEAD BORDERS | BORDES CABECERA TABLAS
 /* ------------------------
      BACKGROUNDS | FONDOS 
    ------------------------ */
+
+.b-none {
+background: none;
+}
 
 .b-red50 {background: var(--red50);} .b-red100 {background: var(--red100);}
 .b-red200 {background: var(--red200);} .b-red300 {background: var(--red300);}

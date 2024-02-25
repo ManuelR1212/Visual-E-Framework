@@ -10,7 +10,7 @@ const Header = () => {
           <img src={Logo} alt="Logo2" className=" width-3 top-margin-auto bottom-margin-auto right-margin-5 right-padding-0"></img>
           <Link to='/home'><p className='t-white50 txt-size-4 smt-txt-size-1sm margin-none'>Inicio</p></Link>
             <Link to="/container"><p className='t-white50 txt-size-4 smt-txt-size-1sm margin-none'>Documentación</p></Link>
-            <Link to="/descargas"><p className='t-white50 txt-size-4 smt-txt-size-1sm margin-none'>Componentes</p></Link>
+            <Link to="/components"><p className='t-white50 txt-size-4 smt-txt-size-1sm margin-none'>Componentes</p></Link>
           </div>
         </nav>
       </>
