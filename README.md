@@ -57,7 +57,7 @@ Pega el [Link CDN](https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.
     <meta charset="utf-8"> 
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	 <title>Visual E Project</title>
-	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+	 <link href="https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css" rel="stylesheet"> 
   </head>
 </html>
 ```
@@ -76,4 +76,4 @@ Podrás encontrar toda la documentación disponible de Visual E, en nuestra [pá
 
 ## Licencia
 
-Visual E cuenta con una licencia MIT. Puedes averiguar más y leer sobre la misma aquí.
+Visual E cuenta con una licencia MIT. Puedes averiguar más y leer sobre la misma [aquí](https://github.com/ManuelR1212/Visual-E-Framework/blob/master/LICENCE.md).

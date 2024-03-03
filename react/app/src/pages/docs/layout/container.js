@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import DocHeader from '../../../page-components/docheader';
+import Footer from '../../../components/footer';
 
 
 export default function Container() {
@@ -19,6 +20,7 @@ export default function Container() {
         <>
 
     <DocHeader/>
+    
 
     <div class="b-red500 top-margin-0">
         <h1 class="display-3 smt-display-5 tab-display-4 left-padding-3 container-1 top-margin-0 top-padding-2 t-white50">Documentación</h1>
@@ -176,6 +178,7 @@ export default function Container() {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
 
+<Footer/>
 </>
 
     )

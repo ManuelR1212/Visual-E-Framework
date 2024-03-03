@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Header from '../../page-components/header'
+import Footer from '../../components/footer';
 
 
 export default function Home() {
@@ -125,6 +126,9 @@ export default function Home() {
 <script>hljs.highlightAll();</script>
 
     </div>
-        </>
+
+    <Footer/>
+    
+    </>
     )
 }

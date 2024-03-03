@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../styles/Sidebar.css';
+import '../styles/framework.css';
 
 const Sidebar = ({className}) => {
 

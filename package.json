@@ -13,8 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "highlight.js": "^11.9.0",
     "react-router": "^6.22.0",
     "react-router-dom": "^6.22.0",
-    "react-slideshow-image": "^4.3.0"
+    "react-slideshow-image": "^4.3.0",
+    "react-syntax-highlighter": "^15.5.0"
   }
 }

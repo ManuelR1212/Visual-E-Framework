@@ -1,20 +1,18 @@
 import DocHeader from "../../page-components/docheader";
 import Slider from "../../components/slider";
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import Accordion from "../../components/accordion";
+import Footer from "../../components/footer";
+import SearchBar from "../../components/searchbar";
+import Jumbotron from "../../components/jumbotron";
+import Breadcrumbs from "../../components/breadcrumb";
+import Modal from "../../components/modals";
+import hljs from 'highlight.js/lib/core';
+import javascript from 'highlight.js/lib/languages/javascript';
+hljs.registerLanguage('javascript', javascript);
+hljs.registerLanguage('html', HTMLAllCollection);
 
 export default function Components() {
-
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js';
-        script.async = true;
-        document.body.appendChild(script);
-    
-        script.onload = () => {
-          window.hljs.highlightAll();
-        };
-      }, []);
 
   const imageUrls = [
     'https://www.petful.com/wp-content/uploads/2015/05/Turkish-Van-cat-1-750x507.jpg',
@@ -22,6 +20,36 @@ export default function Components() {
     'https://i0.wp.com/ittykitty.com/wp-content/uploads/2018/04/turkish-van-cat-1.jpg?resize=696%2C695',
 
   ];
+
+
+  const product = {
+    id: 123,
+    name: 'Zapatillas deportivas',
+    category: 'Calzado',
+    brand: 'MiMarca',
+  };
+  
+  const breadcrumbsItems = [
+    { label: 'Inicio', link: '/' },
+    { label: 'Productos', link: '/productos' },
+    { label: product.category, link: `/productos/${product.category}` },
+    { label: product.name, link: `/productos/${product.category}/${product.id}` },
+  ];
+
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
+  const highlightedCode = hljs.highlight(
+    '<h1>Hello World!</h1>',
+    { language: 'html' }
+  ).value
 
 return(
 <>
@@ -45,6 +73,29 @@ return(
           <div>
             <Slider images={imageUrls} />
           </div>
+
+          <div>
+            <SearchBar/>
+          </div>
+
+          <div>
+            <Jumbotron className={"jumbotron b-red500"} title={"Hola Mundo!"} description={"Bienvenidos a mi primer Jumbotron"}/>
+          </div>
+
+          <div>
+      <Breadcrumbs className={"breadcrumbs"} items={breadcrumbsItems} />
+      <h1>{product.name}</h1>
+      <p>Marca: {product.brand}</p>
+    </div>
+
+
+    <div>
+      <button onClick={openModal}>Abrir Modal</button>
+      <Modal isOpen={showModal} onClose={closeModal}>
+        <h2>Holaaaaaaa</h2>
+        <p>Esto es un mensaje</p>
+      </Modal>
+    </div>
 
 
         </div>
@@ -106,16 +157,7 @@ return(
     <p class="container-2 top-margin-0 bottom-padding-5 smt-container-2 smt-txt-size-2sm tab-txt-size-5sm">Puedes usar un container dentro de otro. Juega con sus propiedades para crear estilos totalmente originales:
     </p>
 
-    <pre>
-        <code class="round-4">
-    &lt;div class=&quot;card-1 container-2 b-blue600 round-6&quot;&gt;
-        &lt;div class=&quot;card-1 container-3 b-red500 round-full&quot;&gt;
-            &lt;h2 class=&quot;center-txt t-white50&quot;&gt;Zyzz ✉️&lt;/h2&gt;
-            &lt;p class=&quot;container-2 top-margin-0 bottom-padding-5 center-txt&quot;&gt; &iexcl;Hola bro! &iquest;Quieres ir al gym conmigo hoy?
-        &lt;/div&gt;
-    &lt;/div&gt;
-        </code>
-     </pre>
+    
      
      <h1 class="display-1 center-txt margin-none smt-display-5">=</h1>
 
@@ -133,6 +175,7 @@ return(
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
 
+<Footer/>
 </>
 
 )
