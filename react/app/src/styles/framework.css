@@ -78,6 +78,8 @@ text-decoration: none;
 
 .d-flex {display: flex;}
 
+.d-block {display: block;}
+
 .items-center {align-items: center;}
 
 .d-none {display: none;}
@@ -517,6 +519,13 @@ p {
 .cont-scroll-1 {
     overflow-y: scroll; 
     max-height: 300px;}
+
+.cont-scroll-2 {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    max-height: 400px;
+    max-width: 1000px;
+}
 
 
 

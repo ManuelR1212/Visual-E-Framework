@@ -17,6 +17,7 @@ const Sidebar = ({className}) => {
           <p class="txt-size-3 t-white50 font-light hover left-margin-3">Height</p>
           <p class="txt-size-3 t-white50 font-light hover left-margin-3">Width</p>
           <Link to='/container'><p class="txt-size-3 t-white50 font-light hover left-margin-3">Container</p></Link>
+          <Link to='/card'><p class="txt-size-3 t-white50 font-light hover left-margin-3">Card</p></Link>
           <Link to='/grids'><p class="txt-size-3 t-white50 font-light hover left-margin-3">Grid</p></Link>
           <p class="txt-size-3 t-white50 font-light hover left-margin-3">Column</p>
           <p class="txt-size-3 t-white50 font-light hover left-margin-3">Span</p>

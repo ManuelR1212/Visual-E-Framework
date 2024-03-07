@@ -4,6 +4,7 @@ import Home from './pages/home/home'
 import Container from './pages/docs/layout/container';
 import Grids from './pages/docs/layout/grids';
 import Components from './pages/comps/components';
+import Card from './pages/docs/layout/card';
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" element={<Home/>} />
         <Route path="/container" element={<Container/>} />
         <Route path="/grids" element={<Grids/>} />
+        <Route path="/card" element={<Card/>} />
         <Route path="/components" element={<Components/>} />
        </Routes>
     </Router>
