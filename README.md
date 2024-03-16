@@ -44,11 +44,11 @@ Este ejemplo te muestra una pequeña parte de todas las funciones que ofrece Vis
 
 ## Inicio Rápido
 
-Visual E ofrece a aquellos usuarios que necesiten de un diseño rápido pero agradable y consistente, un método de implementar el framework en sus proyectos sin necesidad de instalaciones previas; todo esto através del uso del [Link CDN](https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css) de Visual E.
+Visual E ofrece a aquellos usuarios que necesiten de un diseño rápido pero agradable y consistente, un método de implementar el framework en sus proyectos sin necesidad de instalaciones previas; todo esto através del uso del [Link CDN](https://cdn.jsdelivr.net/npm/visual-e@1.0.4/styles/framework.min.css) de Visual E.
 
-`https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css`
+`https://cdn.jsdelivr.net/npm/visual-e@1.0.4/styles/framework.min.css`
 
-Pega el [Link CDN](https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css) dentro del "head" de tu código HTML. Simplemente con esto, podrás utilizar todos los estilos y etiquetas de Visual E dentro de tu proyecto, para una mayor información, visita la página de [documentación](https://visual-e-ve.github.io/visuale-page/).
+Pega el [Link CDN](https://cdn.jsdelivr.net/npm/visual-e@1.0.4/styles/framework.min.css) dentro del "head" de tu código HTML. Simplemente con esto, podrás utilizar todos los estilos y etiquetas de Visual E dentro de tu proyecto, para una mayor información, visita la página de [documentación](https://visual-e-ve.github.io/visuale-page/).
 
 ```html
 <!DOCTYPE html>
