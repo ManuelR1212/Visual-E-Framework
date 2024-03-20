@@ -1,7 +1,14 @@
 {
-  "name": "app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "visual-e",
+  "version": "1.2.4",
+  "description": "Visual E npm package",
+  "main": "src/styles/framework.css",
+  "module": "src/index.js",
+  "files": [
+    "/src/styles/framework.css",
+    "/src/index.js",
+    "/src/components/*"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -18,12 +25,31 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "peerDependencies": {
+    "react": "^18.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visual-e-ve/visual-e-framework.git"
+  },
+  "author": "Manuel Rodriguez <manu.12.d@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/visual-e-ve/visual-e-framework/issues"
+  },
+  "homepage": "https://github.com/visual-e-ve/visual-e-framework",
+  "devDependencies": {
+    "@babel/core": "^7.24.1",
+    "@babel/preset-env": "^7.24.1",
+    "@babel/preset-react": "^7.24.1"
+  },
+  "keywords": [
+    "Visual E",
+    "Framework",
+    "Project",
+    "Styles",
+    "React"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",

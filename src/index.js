@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+export { default as Accordion } from './components/accordion'
+export { default as Badge } from './components/badge'
+export { default as Breadcrumb } from './components/breadcrumb'
+export { default as Buttom } from './components/button'
+export { default as Footer} from './components/footer'
+export { default as Jumbotron } from './components/jumbotron'
+export { default as Modal } from './components/modals'
+export { default as Navbar } from './components/navbar'
+export { default as Searchbar } from './components/searchbar'
+export { default as Sidebar } from './components/sidebar'
+export { default as Slider } from './components/slider'
