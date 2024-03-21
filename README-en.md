@@ -5,7 +5,7 @@
 
 # Visual E
 
-This is the official Visual E repository, where you will find the information necessary for its implementation in your projects, such as; plugins, dependencies and tutorials. For more information, visit the [documentation](https://manuelr1212.github.io/visuale-page/) page.
+This is the official Visual E repository, where you will find the information necessary for its implementation in your projects, such as; plugins, dependencies and tutorials. For more information, visit the [documentation](https://visual-e-ve.github.io/visuale-page/) page.
 
 
 ## Introduction
@@ -40,17 +40,17 @@ return (
 }
 ```
 
-This example shows you a small part of all the functions that Visual E offers for your projects, to learn more about them visit the [documentation](https://manuelr1212.github.io/visuale-page/).
+This example shows you a small part of all the functions that Visual E offers for your projects, to learn more about them visit the [documentation](https://visual-e-ve.github.io/visuale-page/).
 
 Do you feel prepared? Follow the steps in the "quick start" section to get started with your projects.
 
 ## Quick Start
 
-Visual E offers those users who need a fast but pleasant and consistent design, a method of implementing the framework in their projects without the need for prior installations; all this through the use of the Visual E [CDN Link](https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css).
+Visual E offers those users who need a fast but pleasant and consistent design, a method of implementing the framework in their projects without the need for prior installations; all this through the use of the Visual E [CDN Link](https://cdn.jsdelivr.net/npm/visual-e@1.0.4/styles/framework.min.css).
 
 `https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css`
 
-Paste the [CDN Link](https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css) inside the "head" of your HTML code. Simply with this, you will be able to use all Visual E styles and tags within your project. For more information, visit the [documentation] page (https://manuelr1212.github.io/visuale-page/).
+Paste the [CDN Link](https://cdn.jsdelivr.net/npm/visual-e@1.0.4/styles/framework.min.css) inside the "head" of your HTML code. Simply with this, you will be able to use all Visual E styles and tags within your project. For more information, visit the [documentation] page (https://manuelr1212.github.io/visuale-page/).
 
 ```html
 <!DOCTYPE html>
@@ -59,7 +59,7 @@ Paste the [CDN Link](https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.mi
     <meta charset="utf-8"> 
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	 <title>Visual E Project</title>
-	 <link href="https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css" rel="stylesheet"> 
+	 <link href="https://cdn.jsdelivr.net/npm/visual-e@1.0.4/styles/framework.min.css" rel="stylesheet"> 
   </head>
 </html>
 ```
@@ -76,7 +76,7 @@ This will cause npm to install all the necessary packages so you can use Visual 
 
 ## Documentation
 
-You can find all the available Visual E documentation on our [official website](https://manuelr1212.github.io/visuale-page/). Visual E documentation is still under development, we invite you to start your projects with us!
+You can find all the available Visual E documentation on our [official website](https://visual-e-ve.github.io/visuale-page/). Visual E documentation is still under development, we invite you to start your projects with us!
 
 ## Licence
 
