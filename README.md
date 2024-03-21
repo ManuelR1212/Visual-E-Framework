@@ -57,7 +57,7 @@ Pega el [Link CDN](https://cdn.jsdelivr.net/npm/visual-e@1.0.4/styles/framework.
     <meta charset="utf-8"> 
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	 <title>Visual E Project</title>
-	 <link href="https://cdn.jsdelivr.net/npm/visual-e-cdn@1.0.0/visual-e.min.css" rel="stylesheet"> 
+	 <link href="https://cdn.jsdelivr.net/npm/visual-e@1.0.4/styles/framework.min.css" rel="stylesheet"> 
   </head>
 </html>
 ```
@@ -67,6 +67,7 @@ Visual E también ofrece una versión adaptada a ReactJs, perfecta para todos aq
 Antes de instalar Visual E en tus proyectos, asegurate de tener una versión de Node.js v21.1.0 o superior en tu sistema. Lo siguiente es ejecutar el comando de instalación de Visual E usando npm en la raíz de tu proyecto de React.
 
 `$ npm install visual-e`
+`$ yarn add visual-e`
 
 Esto hará que npm instale todos los paquetes necesarios para que puedas utilizar Visual E en tus proyectos de React. npm arrojará una carpeta con todos los componentes de Visual E, además de otorgarte la posibilidad de utilizar todos los estilos CSS del framework. Una vez terminado el proceso, es necesario que importes las carpetas "components" y "styles" en los archivos de tu proyecto que requieran de la mano de Visual E.
 
